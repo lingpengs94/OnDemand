@@ -1,0 +1,13 @@
+ssh qian.6@unity.asc.ohio-state.edu   ## cisco
+
+ml gnu/9.1.0
+ml R/4.1
+
+
+cd /home/qian.6/PowerPrior/parallel/  ## to derectory 
+
+
+sbatch par_RunCont_olp_01_200_20.sh ### submit job 
+
+
+qstat -u qian.6  ## check jo status 
